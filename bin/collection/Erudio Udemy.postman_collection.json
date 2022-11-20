@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "850b573c-c57d-4d86-9e1c-c7572aba6891",
+		"name": "Erudio Udemy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8859271"
+	},
+	"item": [
+		{
+			"name": "Greeting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greeting",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greeting"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/sum/4.1/a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sum",
+						"4.1",
+						"a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subtraction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/subtraction/4.0/8.0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"subtraction",
+						"4.0",
+						"8.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplication",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/multiplication/4.0/2.0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"multiplication",
+						"4.0",
+						"2.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Division",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/division/4.0/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"division",
+						"4.0",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SquareRoot",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/squareRoote/4.0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"squareRoote",
+						"4.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Average",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/average/4.0/4.0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"average",
+						"4.0",
+						"4.0"
+					]
+				}
+			},
+			"response": []
+		}
+<<<<<<< HEAD
+	]}
+=======
+	]
+}
+>>>>>>> 381ef992a6895ab31e55e19f6cf22efda43ae176

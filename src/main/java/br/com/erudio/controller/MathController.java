@@ -74,8 +74,5 @@ public class MathController {
 		
 		return Math.sqrt(mathUtil.squareRoote(numberOne));
 	}
-<<<<<<< HEAD
-=======
 
->>>>>>> 381ef992a6895ab31e55e19f6cf22efda43ae176
 }

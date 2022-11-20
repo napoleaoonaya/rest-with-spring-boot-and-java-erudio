@@ -29,9 +29,5 @@ public class ExceptionResponse implements Serializable {
 	public String getDetails() {
 		return details;
 	}
-<<<<<<< HEAD
-=======
-	
 
->>>>>>> 381ef992a6895ab31e55e19f6cf22efda43ae176
 }

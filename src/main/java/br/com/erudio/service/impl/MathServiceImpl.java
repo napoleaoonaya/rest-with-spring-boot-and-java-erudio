@@ -46,8 +46,5 @@ public class MathServiceImpl implements MathService {
 			return doubleNumber;
 		}
 	}
-<<<<<<< HEAD
-=======
-	
->>>>>>> 381ef992a6895ab31e55e19f6cf22efda43ae176
+
 }
