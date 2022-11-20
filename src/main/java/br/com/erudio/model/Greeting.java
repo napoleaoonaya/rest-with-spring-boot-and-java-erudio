@@ -1,4 +1,4 @@
-package br.com.erudio;
+package br.com.erudio.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
