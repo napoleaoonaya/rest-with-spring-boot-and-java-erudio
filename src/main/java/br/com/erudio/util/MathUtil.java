@@ -52,5 +52,4 @@ public class MathUtil {
 	public Double squareRoote(String numberOne) {
 		return mathService.convertToDouble(numberOne);
 	}
-
 }
