@@ -25,6 +25,10 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 				exception.getMessage(), 
 				webRequest.getDescription(false));
 		return new ResponseEntity<>(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 381ef992a6895ab31e55e19f6cf22efda43ae176
 	}
 	
 	@ExceptionHandler(UnsupportedMathOperationException.class)
@@ -35,5 +39,9 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 				exception.getMessage(), 
 				webRequest.getDescription(false));
 		return new ResponseEntity<>(exceptionResponse, HttpStatus.BAD_REQUEST);
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 381ef992a6895ab31e55e19f6cf22efda43ae176
 	}
 }
